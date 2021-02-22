@@ -1,0 +1,33 @@
+  .spacer {
+    flex: 1;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #00aeff;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+  }
+
+  .footer span {
+    margin: 0 0 0 26px;
+  }
+  .footer img {
+    margin: 0 8px;
+  }
+
+  .footer #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .footer #twitter-logo:hover {
+    opacity: 0.8;
+  }
+
